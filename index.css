@@ -1,0 +1,51 @@
+body{
+    background: rgb(255,144,193);
+    background: radial-gradient(circle, rgba(255,144,193,1) 0%, rgba(103,162,232,1) 100%);
+    color: white;
+
+}
+main{
+    width: 720px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+}
+.section1{
+background-color: rgba(0, 0, 0, 0.36);
+padding: 0px 10px 10px 10px;
+border-radius: 8px;
+}
+h1{
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+button :hover{
+    cursor: pointer;
+}
+.section2{
+    border-radius: 0px 8px 8px 0px;
+    width: 250px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.36);
+}
+.estadistica{
+    width: 95%;
+    padding: 0 20px;
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding-inline-start: 8px 20px;
+    box-sizing: border-box;
+}
+footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
